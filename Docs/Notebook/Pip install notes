@@ -1,0 +1,17 @@
+Python package install
+Problem:    Could not fetch URL, connect=None
+Solution:   Windows setting > Proxy > add exceptions: pypi.org
+
+PowerShell
+Problem:    cannot be loaded because the execution of scripts is disabled on this system.
+Solution:   1. Run as Admin
+            2. Set-ExecutionPolicy RemoteSigned
+
+Jupyter:
+Problem:    Cannot connect to kernel
+Solution:   1. Close and open VS code
+            2. python -m pip install 'traitlets==4.3.3' --force-reinstall
+
+Editor tips:
+Word wrap toggle: Alt+Z
+Prettier auto correct: Alt+Shift+F
