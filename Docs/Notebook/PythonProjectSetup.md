@@ -2,45 +2,45 @@
 
 ***Author: Dingkun***
 
-***Last Update:  2021/Dec/17***
+***Last Update:  2022/Apr/9***
 
 ***Visit [My GitHub](https://github.com/Oct19) for more info***
 
 ---
+## Python Installation
+
+- Download and install desired version of Python(Do not add PATH)
+- For first time install, add Python and Python/Script to "PATH" in environment variables.
+
+It should like this:
+
+    C:\Python\python-3.10.4-amd64
+    C:\Python\python-3.10.4-amd64\Scripts
+
+
+## VS Code
+
+- Install VS Code
+- Login account and sync settings
+- Add extensions for Python, Pylance, Vim, Tabnine, Jupyter, etc
 
 ## GitHub initialize
 
+- Install Git
 - Install Github desktop
-- Create repository/Clone repository
-- Make sure to create .gitignore **BEFORE** generate virtual environment!
+- Create repository(with gitignore&README)/Clone repository
 
 If .gitignore is not working:
 
     git rm -rf --cached .
     git add .
 
-## Install specific Python version (Optional)
-
-1. Download the Python version that you need, e.g. Python 3.8
-2. Install the Python executable. I recommend a custom installation. There’s no need to add it to PATH.
-
 ## Virtual environment
 
-### Create VEnv (Using virtualenv)
+### Create VEnv
 
-1. Run Virtual Studio Code (or any other editor or terminal). Windows: If the installation directory is within Program Files, run it as an Administrator.
-2. Install virtualenv in your main Python version via `pip install virtualenv`
-3. Create the virtual environment with virtualenv, and specify the -p parameter.
-
-If your directory contains spaces, wrap it in double quotes. Like this:
-
-    py -m virtualenv -p="C:\Program Files\Python38\python.Exe" .virtenv
-    <venv_name>/Scripts/activate.bat
-
-### Alternative way of creating Virtual environment: venv
-
-    python -m venv <venv_name>
-    <venv_name>/Scripts/activate.bat
+    python -m venv venv
+    venv/Scripts/activate.bat
 
 Python: Select interpreter from `<venv_name>/Scripts/python.exe`
 
