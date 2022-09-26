@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://placekitten.com/900/50"/></h1>
+<h1 align="center"><img src="https://placekitten.com/900/300"/></h1>
 
 # Markdown Guide
 
@@ -61,13 +61,7 @@ And Jimmy also said:
 
 Some text
 
-```
-Code block
-```
-
-```
-Another code block
-```
+    Code block
 
 Some more text
 
